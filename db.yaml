@@ -86,6 +86,21 @@ paths:
                   - img_uri: images/picture-2.jpg
                     link: article.html
                     title: 'لوريوم سبيوم: لوريم إيبسوم هو ببساطة نص شكلي.'
+                  - img_uri: images/picture-7.jpg
+                    link: article.html
+                    title: 'لوريوم سبيوم: لوريم إيبسوم هو ببساطة نص شكلي.'
+                  - img_uri: images/picture-10.jpg
+                    link: article.html
+                    title: 'لوريوم سبيوم: لوريم إيبسوم هو ببساطة نص شكلي.'
+                  - img_uri: images/picture-12.jpg
+                    link: article.html
+                    title: 'لوريوم سبيوم: لوريم إيبسوم هو ببساطة نص شكلي.'
+                  - img_uri: images/picture-3.jpg
+                    link: article.html
+                    title: 'لوريوم سبيوم: لوريم إيبسوم هو ببساطة نص شكلي.'
+                  - img_uri: images/picture-5.jpg
+                    link: article.html
+                    title: 'لوريوم سبيوم: لوريم إيبسوم هو ببساطة نص شكلي.'
   /header-articles:
     get:
       description: ""
@@ -268,35 +283,35 @@ paths:
                   - user_uri: images/user_img/user_3.jpg
                     link: article.html
                     title: وريم إيبسوم هو ببساطة نص شكلي بمعنى أن الغاية هي الشكل وليس .
-                    username: أحمد محمود
+                    user_name: أحمد محمود
                   - user_uri: images/user_img/user_2.jpg
                     link: article.html
                     title: وريم إيبسوم هو ببساطة نص شكلي بمعنى أن الغاية هي الشكل وليس .
-                    username: أحمد محمود
+                    user_name: أحمد محمود
                   - user_uri: images/user_img/user_4.jpg
                     link: article.html
                     title: وريم إيبسوم هو ببساطة نص شكلي بمعنى أن الغاية هي الشكل وليس .
-                    username: أحمد محمود
+                    user_name: أحمد محمود
                   - user_uri: images/user_img/user_6.jpg
                     link: article.html
                     title: وريم إيبسوم هو ببساطة نص شكلي بمعنى أن الغاية هي الشكل وليس .
-                    username: أحمد محمود
+                    user_name: أحمد محمود
                   - user_uri: images/user_img/user_5.jpg
                     link: article.html
                     title: وريم إيبسوم هو ببساطة نص شكلي بمعنى أن الغاية هي الشكل وليس .
-                    username: أحمد محمود
+                    user_name: أحمد محمود
                   - user_uri: images/user_img/user_4.jpg
                     link: article.html
                     title: وريم إيبسوم هو ببساطة نص شكلي بمعنى أن الغاية هي الشكل وليس .
-                    username: أحمد محمود
+                    user_name: أحمد محمود
                   - user_uri: images/user_img/user_1.jpg
                     link: article.html
                     title: وريم إيبسوم هو ببساطة نص شكلي بمعنى أن الغاية هي الشكل وليس .
-                    username: أحمد محمود
+                    user_name: أحمد محمود
                   - user_uri: images/user_img/user_2.jpg
                     link: article.html
                     title: وريم إيبسوم هو ببساطة نص شكلي بمعنى أن الغاية هي الشكل وليس .
-                    username: أحمد محمود
+                    user_name: أحمد محمود
   /latest-news:
     get:
       description: ""
@@ -332,21 +347,25 @@ paths:
                     title: وريم إيبسوم هو ببساطة نص شكلي بمعنى أن الغاية هي الشكل وليس .
                     category: أنظمة تشغيل
                     paragraph: لوريوم لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايمكيواس نوستريد أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
-                  - user_uri: images/user_img/user_2.jpg
+                    position: right
+                  - img_uri: images/picture-16.jpg
                     link: article.html
                     title: وريم إيبسوم هو ببساطة نص شكلي بمعنى أن الغاية هي الشكل وليس .
                     category: تكنولوجيا
                     paragraph: لوريوم لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايمكيواس نوستريد أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
-                  - user_uri: images/user_img/user_4.jpg
+                    position: side
+                  - img_uri: images/picture-15.jpg
                     link: article.html
                     title: وريم إيبسوم هو ببساطة نص شكلي بمعنى أن الغاية هي الشكل وليس .
                     category: أخبار
                     paragraph: لوريوم لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايمكيواس نوستريد أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
-                  - user_uri: images/user_img/user_6.jpg
+                    position: bottom
+                  - img_uri: images/picture-6.jpg
                     link: article.html
                     title: وريم إيبسوم هو ببساطة نص شكلي بمعنى أن الغاية هي الشكل وليس .
                     category: تواصل اجتماعي
                     paragraph: لوريوم لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايمكيواس نوستريد أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
+                    position: bottom
   /articles:
     get:
       description: ""
@@ -389,7 +408,7 @@ paths:
                     - حسوب
                     - لوريوم
                     - أكاديمية
-                    related-articles:
+                    related_articles:
                     - img_uri: images/picture-3.jpg
                       link: article.html
                       title: 'لوريوم سبيوم: لوريم إيبسوم هو ببساطة نص شكلي.'
@@ -404,10 +423,10 @@ paths:
                       category: عملة رقمية
                     comments:
                     - user_img: images/user_img/user_1.jpg
-                      username: محمد الدايخ
+                      user_name: محمد الدايخ
                       text: لوريم إيبسوم هو ببساطة نص شكلي بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة
                     - user_img: images/user_img/user_6.jpg
-                      username: محمد الدايخ
+                      user_name: محمد الدايخ
                       text: لوريم إيبسوم هو ببساطة نص شكلي بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة
   /suggested-articles:
     get:
